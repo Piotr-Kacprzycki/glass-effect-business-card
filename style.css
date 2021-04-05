@@ -17,7 +17,51 @@ body {
     rgba(7, 152, 161, 1) 8%,
     rgba(4, 4, 4, 0.9220063025210083) 100%
   );
+  font-family: roboto;
 }
+/* navigation section */
+.nav-menu {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  display: flex;
+
+  height: 100vh;
+  opacity: 0.5;
+}
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.nav-link {
+  list-style: none;
+}
+a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+  padding: 10px;
+}
+i {
+  font-size: 50px;
+}
+
+span {
+  position: absolute;
+  bottom: 0;
+  left: -110%;
+  width: 100%;
+  border: 2px solid blue;
+  transition: 0.3s ease;
+}
+a:hover span {
+  left: 0;
+}
+
+/* end navigation section */
+
 /* container section */
 .container {
   position: absolute;
@@ -29,23 +73,38 @@ body {
     rgba(7, 152, 161, 1) 8%,
     rgba(4, 4, 4, 0.9220063025210083) 100%
   );
- 
-  border-radius: 18px;
+
+  border-radius: 12px;
   opacity: 0.8;
 }
 /* end container section */
 
 /* section img  */
+
 .img-circle {
   position: absolute;
   top: 0;
   left: 55%;
   width: 450px;
   height: 450px;
- animation: rotate 30s linear infinite;
+  animation: rotate 30s linear infinite;
 }
-@keyframes rotate{
-from {transform: rotate(0deg);}
-to {transform: rotate(360deg);}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* End section img */
 
+/* footer */
+footer {
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+  opacity: 0.2;
+  color: white;
 }
+/* End section footer */
