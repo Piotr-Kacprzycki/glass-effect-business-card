@@ -46,6 +46,11 @@ a {
 }
 i {
   font-size: 50px;
+  transition: 0.8s;
+}
+i:hover{
+    transform: scale(0.7);
+    opacity: 0.2;
 }
 
 span {
