@@ -96,7 +96,7 @@ display: flex;
 .person-img{
   width: 200px;
   height: 400px;
-  
+
   
 }
 .header-container{
@@ -106,6 +106,18 @@ flex-direction: column;
 width: 50%;
 margin-left: 200px;
 margin-top: 25px;
+}
+h1{
+  color: white ;
+  opacity: 0.8;
+  margin-bottom: 20px;
+  letter-spacing: 4px;
+}
+p{
+  color: white;
+  opacity: 0.4;
+  letter-spacing: 1px;
+  margin-top: 10px;
 }
 /* end container info */
 .slide-container-number {
