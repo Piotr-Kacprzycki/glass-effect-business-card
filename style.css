@@ -20,6 +20,7 @@ body {
     rgba(4, 4, 4, 0.9220063025210083) 100%
   );
   font-family: roboto;
+
 }
 /* navigation section */
 .nav-menu {
@@ -69,7 +70,7 @@ a:hover span {
 
 /* end navigation section */
 
-/* container section */
+/* container info */
 .container-info {
   position: absolute;
   width: 45%;
@@ -80,11 +81,33 @@ a:hover span {
     rgba(7, 152, 161, 1) 8%,
     rgba(4, 4, 4, 0.9220063025210083) 100%
   );
-
   border-radius: 12px;
   opacity: 0.8;
   animation: opacity-container 6s;
 }
+.img-container{
+  position: absolute;
+bottom: 0;
+left: 0;
+display: flex;
+
+
+}
+.person-img{
+  width: 200px;
+  height: 400px;
+  
+  
+}
+.header-container{
+  position: relative;
+display: flex;
+flex-direction: column;
+width: 50%;
+margin-left: 200px;
+margin-top: 25px;
+}
+/* end container info */
 .slide-container-number {
   position: absolute;
   width: 45%;
@@ -98,7 +121,11 @@ a:hover span {
   );
   border-radius: 12px;
   opacity: 0.8;
+  
 }
+
+
+
 .slide-container-email {
   position: absolute;
   width: 45%;
@@ -114,7 +141,7 @@ a:hover span {
   opacity: 0.8;
 }
 
-/* end container section */
+
 
 /* section  animation  */
 
