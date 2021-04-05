@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+  
 }
 
 body {
@@ -40,9 +42,9 @@ body {
 a {
   position: relative;
   text-decoration: none;
-  color: white;
   opacity: 0.8;
   padding: 10px;
+  color: white;
 }
 i {
   font-size: 50px;
@@ -68,7 +70,7 @@ a:hover span {
 /* end navigation section */
 
 /* container section */
-.container {
+.container-info {
   position: absolute;
   width: 45%;
   height: 65vh;
@@ -114,7 +116,7 @@ a:hover span {
 
 /* end container section */
 
-/* section img animation  */
+/* section  animation  */
 
 .img-circle {
   position: absolute;
@@ -132,7 +134,6 @@ a:hover span {
     transform: rotate(360deg);
   }
 }
-/* End section img animation */
 @keyframes opacity-container {
   from {
     opacity: 0;
@@ -142,6 +143,9 @@ a:hover span {
     opacity: 0.8;
   }
 }
+
+/* End section animation */
+
 
 /* footer */
 footer {
